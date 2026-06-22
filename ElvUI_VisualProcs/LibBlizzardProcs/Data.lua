@@ -26,18 +26,16 @@ LBP_Data.ButtonSpells = {
 		[66961] = 2,
 		[66962] = 2,
 
-		-- Deathchill / Killing Machine / Freezing Fog
-		[45477] = 3,
+		-- Deathchill / Killing Machine (Icy Touch)
+		[45477] = 2,
+		[49896] = 2,
+		[49903] = 2,
+		[49904] = 2,
+		[49909] = 2,
+		[59131] = 2,
+
+		-- Deathchill / Killing Machine / Freezing Fog (Howling Blast)
 		[49184] = 3,
-		[49896] = 3,
-		[49903] = 3,
-		[49904] = 3,
-		[49909] = 3,
-		[50880] = 3,
-		[50884] = 3,
-		[50885] = 3,
-		[50886] = 3,
-		[50887] = 3,
 		[51409] = 3,
 		[51410] = 3,
 		[51411] = 3,
@@ -45,7 +43,6 @@ LBP_Data.ButtonSpells = {
 		[52789] = 3,
 		[53536] = 3,
 		[53549] = 3,
-		[59131] = 3,
 	},
 	DRUID = {
 		-- Eclipse (Solar)
