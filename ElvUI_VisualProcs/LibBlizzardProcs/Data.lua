@@ -26,18 +26,16 @@ LBP_Data.ButtonSpells = {
 		[66961] = 2,
 		[66962] = 2,
 
-		-- Deathchill / Killing Machine / Freezing Fog
-		[45477] = 3,
+		-- Deathchill / Killing Machine (Icy Touch)
+		[45477] = 2,
+		[49896] = 2,
+		[49903] = 2,
+		[49904] = 2,
+		[49909] = 2,
+		[59131] = 2,
+
+		-- Deathchill / Killing Machine / Freezing Fog (Howling Blast)
 		[49184] = 3,
-		[49896] = 3,
-		[49903] = 3,
-		[49904] = 3,
-		[49909] = 3,
-		[50880] = 3,
-		[50884] = 3,
-		[50885] = 3,
-		[50886] = 3,
-		[50887] = 3,
 		[51409] = 3,
 		[51410] = 3,
 		[51411] = 3,
@@ -45,7 +43,6 @@ LBP_Data.ButtonSpells = {
 		[52789] = 3,
 		[53536] = 3,
 		[53549] = 3,
-		[59131] = 3,
 	},
 	DRUID = {
 		-- Eclipse (Solar)
@@ -160,10 +157,35 @@ LBP_Data.ButtonSpells = {
 		[51742] = 3,
 		[53214] = 3,
 
+		-- Sniper Training
+		[56641] = 4,
+		[34120] = 4,
+		[49051] = 4,
+		[49052] = 4,
+		[19434] = 4,
+		[20900] = 4,
+		[20901] = 4,
+		[20902] = 4,
+		[20903] = 4,
+		[20904] = 4,
+		[27065] = 4,
+		[49049] = 4,
+		[49050] = 4,
+		[3674] = 4,
+		[63668] = 4,
+		[63669] = 4,
+		[63670] = 4,
+		[63671] = 4,
+		[63672] = 4,
+		[53301] = 4,
+		[60051] = 4,
+		[60052] = 4,
+		[60053] = 4,
+
 		-- Kill Shot
-		[53351] = 4,
-		[61005] = 4,
-		[61006] = 4,
+		[53351] = 5,
+		[61005] = 5,
+		[61006] = 5,
 	},
 	MAGE = {
 		-- Missile Barrage
@@ -707,6 +729,8 @@ LBP_Data.ButtonProcs = {
 		{56453},
 		-- Improved Steady Shot / Lock and Load
 		{53220, 56453},
+		-- Sniper Training
+		{64420},
 		-- Kill Shot
 		{61006},
 	},
@@ -799,6 +823,8 @@ LBP_Data.OverlayProcs = {
 		[53220] = 1,
 		-- Lock and Load
 		[56453] = 2,
+		-- Sniper Training
+		[64420] = 3,
 		-- Kill Shot
 		[61006] = nil,
 	},
@@ -893,6 +919,8 @@ LBP_Data.OverlayTextures = {
 		{0, "Master_Marksman.blp", "Top", 1, 1, 1, 1},
 		-- Lock and Load
 		{0, "Lock_and_Load.blp", "Top", 1, 1, 1, 1},
+		-- Sniper Training
+		{0, "focus_fire.blp", "Top", 1, 1, 1, 1},
 	},
 	MAGE = {
 		-- Hot Streak
