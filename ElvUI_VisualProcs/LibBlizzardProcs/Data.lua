@@ -157,10 +157,35 @@ LBP_Data.ButtonSpells = {
 		[51742] = 3,
 		[53214] = 3,
 
+		-- Sniper Training
+		[56641] = 4,
+		[34120] = 4,
+		[49051] = 4,
+		[49052] = 4,
+		[19434] = 4,
+		[20900] = 4,
+		[20901] = 4,
+		[20902] = 4,
+		[20903] = 4,
+		[20904] = 4,
+		[27065] = 4,
+		[49049] = 4,
+		[49050] = 4,
+		[3674] = 4,
+		[63668] = 4,
+		[63669] = 4,
+		[63670] = 4,
+		[63671] = 4,
+		[63672] = 4,
+		[53301] = 4,
+		[60051] = 4,
+		[60052] = 4,
+		[60053] = 4,
+
 		-- Kill Shot
-		[53351] = 4,
-		[61005] = 4,
-		[61006] = 4,
+		[53351] = 5,
+		[61005] = 5,
+		[61006] = 5,
 	},
 	MAGE = {
 		-- Missile Barrage
@@ -704,6 +729,8 @@ LBP_Data.ButtonProcs = {
 		{56453},
 		-- Improved Steady Shot / Lock and Load
 		{53220, 56453},
+		-- Sniper Training
+		{64420},
 		-- Kill Shot
 		{61006},
 	},
@@ -796,6 +823,8 @@ LBP_Data.OverlayProcs = {
 		[53220] = 1,
 		-- Lock and Load
 		[56453] = 2,
+		-- Sniper Training
+		[64420] = 3,
 		-- Kill Shot
 		[61006] = nil,
 	},
@@ -890,6 +919,8 @@ LBP_Data.OverlayTextures = {
 		{0, "Master_Marksman.blp", "Top", 1, 1, 1, 1},
 		-- Lock and Load
 		{0, "Lock_and_Load.blp", "Top", 1, 1, 1, 1},
+		-- Sniper Training
+		{0, "focus_fire.blp", "Top", 1, 1, 1, 1},
 	},
 	MAGE = {
 		-- Hot Streak
