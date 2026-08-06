@@ -182,10 +182,33 @@ LBP_Data.ButtonSpells = {
 		[60052] = 4,
 		[60053] = 4,
 
+		-- Rapid Killing
+		[3044] = 5,
+		[14281] = 5,
+		[14282] = 5,
+		[14283] = 5,
+		[14284] = 5,
+		[14285] = 5,
+		[14286] = 5,
+		[14287] = 5,
+		[27019] = 5,
+		[49044] = 5,
+		[49045] = 5,
+		[19434] = 5,
+		[20900] = 5,
+		[20901] = 5,
+		[20902] = 5,
+		[20903] = 5,
+		[20904] = 5,
+		[27065] = 5,
+		[49049] = 5,
+		[49050] = 5,
+		[53209] = 5,
+
 		-- Kill Shot
-		[53351] = 5,
-		[61005] = 5,
-		[61006] = 5,
+		[53351] = 6,
+		[61005] = 6,
+		[61006] = 6,
 	},
 	MAGE = {
 		-- Missile Barrage
@@ -731,6 +754,8 @@ LBP_Data.ButtonProcs = {
 		{53220, 56453},
 		-- Sniper Training
 		{64420},
+		-- Rapid Killing
+		{35098, 35099},
 		-- Kill Shot
 		{61006},
 	},
@@ -825,6 +850,9 @@ LBP_Data.OverlayProcs = {
 		[56453] = 2,
 		-- Sniper Training
 		[64420] = 3,
+		-- Rapid Killing
+		[35098] = 4,
+		[35099] = 4,
 		-- Kill Shot
 		[61006] = nil,
 	},
@@ -921,6 +949,8 @@ LBP_Data.OverlayTextures = {
 		{0, "Lock_and_Load.blp", "Top", 1, 1, 1, 1},
 		-- Sniper Training
 		{0, "focus_fire.blp", "Top", 1, 1, 1, 1},
+		-- Rapid Killing
+		{0, "Rapid_Killing.blp", "Left + Right (Flipped)", 1, 1, 1, 1},
 	},
 	MAGE = {
 		-- Hot Streak
